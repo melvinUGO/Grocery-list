@@ -97,7 +97,7 @@ function deleteButton(e) {
   const element = e.currentTarget.parentElement.parentElement;
   const id = element.dataset.id;
   list.removeChild(element);
-  displayAlert("item was deleted", "danger");
+  displayAlert("Item deleted", "danger");
   // delete from local storage
   displayDefault();
   removeFromLocalStorage(id);
