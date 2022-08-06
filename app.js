@@ -47,7 +47,7 @@ function displayGrocery(e) {
       btn.addEventListener("click", editItem);
     });
 
-    displayAlert("item added", "success");
+    displayAlert("Item added", "success");
     // add to local storage
     addLocalStorage(id, value);
     displayDefault();
@@ -57,7 +57,7 @@ function displayGrocery(e) {
     editLocalStorage(editID, value);
     displayDefault();
   } else {
-    displayAlert("no items added", "danger");
+    displayAlert("No items added", "danger");
   }
 }
 
